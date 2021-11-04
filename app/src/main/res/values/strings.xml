@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVVM</string>
+
+    <string name="tvLogin">Login</string>
+    <string name="tilEmail">Email</string>
+    <string name="tilPassword">Password</string>
+    <string name="btnLogin">Login</string>
+
+</resources>
