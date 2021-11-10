@@ -11,6 +11,7 @@ public class LoginViewModel extends BaseObservable {
     private String email;
     private String password;
     public ObservableField<String> messageStatus = new ObservableField<>();
+    public ObservableField<Boolean> isSuccess = new ObservableField<>();
 
     @Bindable
     public String getEmail() {
@@ -36,8 +37,10 @@ public class LoginViewModel extends BaseObservable {
         User user = new User(getEmail(), getPassword());
         if (user.isValidEmail() && user.isValidPassword()) {
             messageStatus.set("Login success!");
+            isSuccess.set(true);
         } else {
             messageStatus.set("Login fail! Please check email and password again!");
+            isSuccess.set(false);
         }
     }
 }

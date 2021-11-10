@@ -6,6 +6,8 @@
 
     <data>
 
+        <import type="android.view.View" />
+
         <variable
             name="LoginViewModel"
             type="com.thanguit.mvvm.viewModel.LoginViewModel" />
@@ -77,7 +79,7 @@
             android:layout_marginTop="10dp"
             android:text="@{LoginViewModel.messageStatus}"
             android:textAlignment="center"
-            android:textColor="@color/black"
+            android:textColor="@{LoginViewModel.isSuccess ? @color/success : @color/error}"
             android:textSize="14sp"
             android:textStyle="normal" />
 

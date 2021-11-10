@@ -4,7 +4,9 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/mobile/Java/MVVM/app/src/main/res/drawable/ic_email.xml" value="0.14635416666666667" />
-        <entry key="..\:/mobile/Java/MVVM/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/mobile/Java/MVVM/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14635416666666667" />
+        <entry key="..\:/mobile/Java/MVVM/app/src/main/res/drawable/ic_lock.xml" value="0.2703125" />
+        <entry key="..\:/mobile/Java/MVVM/app/src/main/res/layout/activity_main.xml" value="0.264" />
       </map>
     </option>
   </component>
